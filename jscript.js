@@ -101,7 +101,7 @@
 
 //control flow #27 switch statements
 
-const grade = 'A';                  //checks for strict equality in case
+//const grade = 'A';                  //checks for strict equality in case
 
 // switch(grade){
 //   case 'A':                         //checks for strict equality in case
@@ -141,26 +141,26 @@ const grade = 'A';                  //checks for strict equality in case
 //# 28 variables and block level scope (with variables)
 //shows how const and let act differently to var (and how!!)
 
-let age = 30;       //outside blocks age has global scope, any block can use it
-//let age = 50;     //cannot do this because it is in the same (global) scope
- let name = 'bob';  //has global scope
-if(true){
-// age = 40;        //refers to the original declaration (global) and therefore changes 2 blocks AND outside
-   let age = 40;    //re defines only within the 2 blocks not outside
-   let name = 'shaun';
-    //var test = 'hi-di-hi'     //WOW look at how var works - doesn't recognise blocks only order of execution!!
-  console.log('inside 1st code block:', age, name, test);
-  var test = 'hi-di-hi'     //WOW look at how var works - doesn't recognise blocks only order of execution!!
-//}
-if(true){
-    let age = 50;
-    let name = 'june';
-    console.log('inside 2nd code block:', age, name, test);
-    //var test = 'hi-di-hi' //WOW look at how var works - doesn't recognise blocks only order of execution!!
+// let age = 30;       //outside blocks age has global scope, any block can use it
+// //let age = 50;     //cannot do this because it is in the same (global) scope
+//  let name = 'bob';  //has global scope
+// if(true){
+// // age = 40;        //refers to the original declaration (global) and therefore changes 2 blocks AND outside
+//    let age = 40;    //re defines only within the 2 blocks not outside
+//    let name = 'shaun';
+//     //var test = 'hi-di-hi'     //WOW look at how var works - doesn't recognise blocks only order of execution!!
+//   console.log('inside 1st code block:', age, name, test);
+//   var test = 'hi-di-hi'     //WOW look at how var works - doesn't recognise blocks only order of execution!!
+// //}
+// if(true){
+//     let age = 50;
+//     let name = 'june';
+//     console.log('inside 2nd code block:', age, name, test);
+//     //var test = 'hi-di-hi' //WOW look at how var works - doesn't recognise blocks only order of execution!!
 
-  }             //NESTED blocks why? experiment with nesting - it's fun!
+//   }             //NESTED blocks why? experiment with nesting - it's fun!
 
-}               //and now try const instead of let...
+// }               //and now try const instead of let...
 
-console.log('outside code block:', age, name, test);
+// console.log('outside code block:', age, name, test);
     
