@@ -135,18 +135,18 @@
 
 //Call back functions in ACTION!
 
-const ul = document.querySelector('.people');
+// const ul = document.querySelector('.people');
 
-const people = ['bob', 'june', 'kelly', 'shona**2', 'finn', 'freya'];
+// const people = ['bob', 'june', 'kelly', 'shona**2', 'finn', 'freya'];
 
-let html = ``;    //needed for creation of html template
+// let html = ``;    //needed for creation of html template
 
-//people.forEach(function(person){          //change to arrow function
-  people.forEach(person => {                       
- html += `<li style= "color: purple">${person}</li>` //create html template to append each person to html
-});
-    console.log(html);
-    ul.innerHTML = html;    //to display in DOM start with ul from above
+// //people.forEach(function(person){          //change to arrow function
+//   people.forEach(person => {                       
+//  html += `<li style= "color: purple">${person}</li>` //create html template to append each person to html
+// });
+//     console.log(html);
+//     ul.innerHTML = html;    //to display in DOM start with ul from above
 
 
 
