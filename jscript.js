@@ -2,15 +2,15 @@
 
     // for(let i= 0; i < 5; i++){     //between curly braces is called a code block - goddit?
     //     console.log('in loop', i);
-    // }                               //NO semicolon at the end of a LOOP!
+    // }                               //NO semicolon at the end of a LOOP! Ja ich verstehen!
     //     console.log('finished!');
 
     // const names= ['bob', 'june', 'kelly', 'shona', 'ben'];  //each name/ item - cycle through / iteration
     // for (i = 0; i < names.length; i++){
-    //     //console.log(names[i]);                 // console.log expression is built on
+    //     //console.log(i);                 // console.log expression is built up - i, [i], names[i]
     //     let html= `<div>${names[i]}</div>`;
     //     console.log(html);
-    // }
+    //}
 //control flow - # 20 while loop
     //const names= ['bob', 'june', 'kelly', 'shona', 'ben'];  //now add in names array
     // let i= 0;                          //whoa - if run with i= 0 and i < 5 only loop would be INFINITE 
@@ -20,7 +20,7 @@
     // }
     // let i= 0;
     // while(i < names.length) {
-    //     console.log('the names are ', names[i]);  
+    //     console.log('the name is: ', names[i]);  
     //     i++;
     // }
 
@@ -30,6 +30,98 @@
     //     console.log('the value of i is ', i);
     //     i++;
     // }while(i < 5);
+
+//javascriptinfo while loops
+    // let i = 0;
+    // while (i < 3) {
+    // //    alert (i);
+    //     console.log(i);
+    //     i++;
+    // }
+
+    // let i = 3;
+    // while (i) {       //this is short hand for i != 0
+    // //alert (i);
+    // //while(i) alert (i--);    //ultimate shorthand
+    // console.log(i);
+    // i--;     
+    // }
+
+//javascriptinfo do while loops
+    // let i = 3;
+    // do {
+    //    //alert (i);
+    //    console.log(i);
+    //    i++;
+    // }while (i < 3);
+
+//javascriptinfo for loops
+    // for(let i = 7; i > 3; i--) {        //my variation
+    //    //alert (i);
+    //    console.log(i);    
+    // }
+//javascriptinfo for loops with counter declaration outside loop
+    // let i = 0;
+    // for(let i=0; i < 3; i++) {
+    //     alert (i);
+    //    //console.log(i);   
+    // }
+    //     alert (i);
+    //    //console.log(i);
+
+//javascriptinfo for loops with counter declaration inside loop
+    // for (let i = 0; i < 3; i++) {
+    //     //alert (i);
+    //    console.log(i);       
+    // } 
+    //     //alert (i);
+    //    console.log(i);  
+ 
+//javascriptinfo for loops with declaration skipped - not for me yet!!
+//breaking the loop - not for me yet!!
+//continue to next iteration - not for me yet!!
+//break / continue  - not for me yet!!
+
+//MDN for loops
+//walk 5 steps east!
+// for (let step = 0; step < 5; step ++) {
+//    console.log('Walking East one step');
+// }
+
+//MDN loops and iterations exercise to go with html code - a great example!!!
+// let howMany = function(selectObject) { 
+//  let numberSelected = 0;
+//  for(let i = 0; i < selectObject.options.length; i++) {
+//  if(selectObject.options[i].selected){
+//  numberSelected++;
+// }
+// }
+//  return numberSelected;
+// }
+// let btn = document.getElementById('btn');
+// btn.addEventListener('click', function() {
+// alert ("Number of options selected: " + howMany(document.selectForm.musicTypes))
+// //console.log("Number of options selected: " + howMany(document.selectForm.musicTypes))
+// });
+
+//MDN loops and iterations do while exercise
+    // let i = 0;
+    // do {
+    // i +=  1;
+    // console.log(i);  
+    // } while (i < 5);
+
+//MDN loops and iterations while exercise 
+//check that condition can become false otherwise INFINITE LOOP !!!
+    // let n = 0;
+    // let x = 0;
+    // while (n < 10) {
+    // n++;
+    // x =+ n;
+    // console.log("n is: " + n + "  and x is: " + x);     //my additional code!!
+    // }
+
+//MDN loops and iterations labels break and continue. Go back to MDN for exercises.
 
 //control flow - # 22 if statement       if is a conditional boolean statement
 // const age= 21;                  //executed once only if true

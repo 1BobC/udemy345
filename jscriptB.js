@@ -168,9 +168,9 @@
 // console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);  
 
 //reference values
-const userOne = {name: "June", likes: 100};     //object userOne created - referencetype
-const userTwo = userOne;                        //object userTwo created - referencetype
-console.log(userOne, userTwo);
+// const userOne = {name: "June", likes: 100};     //object userOne created - referencetype
+// const userTwo = userOne;                        //object userTwo created - referencetype
+// console.log(userOne, userTwo);
 
-userOne.likes = 500;                            //object value changed - reference type changed
-console.log(userOne, userTwo);
+// userOne.likes = 500;                            //object value changed - reference type changed
+// console.log(userOne, userTwo);
