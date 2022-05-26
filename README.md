@@ -7,3 +7,5 @@ modern jscript ninja sections 3, 4 and 5
 "Complete section 4 to #36 callback functions Create jscriptB.js for section 5"
 "Complete section 5 to #43 primitive and reference types Section 6 in domex-6"
 "Add javascriptinfo and MDN loop tutorial exercises after the udemy loops #21 line 32 jscript.js"
+"Revise function return section 4 #32 Create jscriptC and create own exercises look at rock paper scissors"
+"Add id's bob5 a,b and 6 a,b,c as start of my revision of functions!"
